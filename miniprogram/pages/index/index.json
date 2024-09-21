@@ -2,6 +2,7 @@
   "usingComponents": {
     "navigation-bar": "/components/navigation-bar/navigation-bar",
     "guide-title":"/components/guide-title/guide-title",
-    "club-introduction":"/components/club-introduction/club-introduction"
+    "club-introduction":"/components/club-introduction/club-introduction",
+    "court-card":"/components/court-card/court-card"
   }
 }

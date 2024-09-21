@@ -1,0 +1,14 @@
+<!--components/court-card/court-card.wxml-->
+<view class="container">
+  <view class="name-time">
+    <text class="name">{{info.name}}</text>
+    <text class="time">营业时间 | {{info.workTime}}</text>
+  </view>
+  <view class="address">
+    <view class="text">{{info.address}}</view>
+    <view class="detail-address">
+    <text>{{info.detailAddress}}</text>
+    <text class="arrow">❯❯❯</text>
+    </view>
+  </view>
+</view>

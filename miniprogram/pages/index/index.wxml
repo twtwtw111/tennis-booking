@@ -3,36 +3,45 @@
 <scroll-view class="scrollarea" scroll-y type="list">
   <view class="top-bg"></view>
   <view class="container">
- 
-   <view class="banner">
-    <image  mode="widthFix" src="{{banners[0]}}"/>
-   </view>
+
+    <view class="banner">
+      <image mode="widthFix" src="{{banners[0]}}" />
+    </view>
 
     <view class="navs">
       <view class="nav-item">
-        <image class="nav-icon" src="../../images/icon_court.png" mode="aspectFit"/>
+        <image class="nav-icon" src="../../images/icon_court.png" mode="aspectFit" />
         <text>预定场地</text>
       </view>
       <view class="nav-item">
-        <image class="nav-icon" src="../../images/icon_appointment.png" mode="aspectFit"/>
+        <image class="nav-icon" src="../../images/icon_appointment.png" mode="aspectFit" />
         <text>自助约课</text>
       </view>
       <view class="nav-item">
-        <image class="nav-icon" src="../../images/icon_membership.png" mode="aspectFit"/>
+        <image class="nav-icon" src="../../images/icon_membership.png" mode="aspectFit" />
         <text>充值会员</text>
       </view>
       <view class="nav-item">
-        <image class="nav-icon" src="../../images/icon_tennis.png" mode="aspectFit"/>
+        <image class="nav-icon" src="../../images/icon_tennis.png" mode="aspectFit" />
         <text>畅打球局</text>
       </view>
       <view class="nav-item">
-        <image class="nav-icon" src="../../images/icon_shop.png" mode="aspectFit"/>
+        <image class="nav-icon" src="../../images/icon_shop.png" mode="aspectFit" />
         <text>网球商城</text>
       </view>
     </view>
-    
-    <guide-title title="俱乐部风采" subTitle="Club introduction"/>
-    <club-introduction intros="{{clubIntros}}"/>
-    <guide-title title="预约场地" subTitle="Venue Booking"/>
+
+    <guide-title title="俱乐部风采" subTitle="Club introduction" />
+    <club-introduction intros="{{clubIntros}}" />
+    <court-card info="{{courtInfo}}" />
+    <guide-title title="预约场地" subTitle="Venue Booking" />
+    <view class="ad">
+      <image mode="widthFix" src="../../images/i-court.png" />
+    </view>
+    <guide-title title="购买课程" subTitle="Purchase courses" />
+    <view class="ad">
+      <image mode="widthFix" src="../../images/i-class.png" />
+    </view>
+    <guide-title title="教练团队" subTitle="Tennis Coach" />
   </view>
 </scroll-view>

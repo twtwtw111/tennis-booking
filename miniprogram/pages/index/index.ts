@@ -21,7 +21,14 @@ Component({
       '../../images/club-intro1.jpg',
       '../../images/club-intro2.jpg',
       '../../images/club-intro3.jpg'
-    ]
+    ],
+    courtInfo:{
+      id:1,
+      name:"VTA&七棵树网球中心",
+      workTime:"8.00-22.00",
+      address:"成都市龙泉驿区东安湖体育公园",
+      detailAddress:"6片电动风雨棚标准球场 3片匹克球球场 (儿童场)"
+    }
   },
   methods: {
     // 事件处理函数
