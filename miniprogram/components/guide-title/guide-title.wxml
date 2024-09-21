@@ -1,0 +1,9 @@
+<!--components/guide-title.wxml-->
+<view class="container">
+  <view class="title">
+    <text class="color-block"></text>
+    <text class="text">{{title}}</text>
+    <text class="sub-title">{{subTitle}}</text>
+  </view>
+ 
+</view>

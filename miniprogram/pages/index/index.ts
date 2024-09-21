@@ -13,6 +13,15 @@ Component({
     hasUserInfo: false,
     canIUseGetUserProfile: wx.canIUse('getUserProfile'),
     canIUseNicknameComp: wx.canIUse('input.type.nickname'),
+    banners:[
+      '../../images/banner1.png',
+      '../../images/banner1.png'
+    ],
+    clubIntros:[
+      '../../images/club-intro1.jpg',
+      '../../images/club-intro2.jpg',
+      '../../images/club-intro3.jpg'
+    ]
   },
   methods: {
     // 事件处理函数

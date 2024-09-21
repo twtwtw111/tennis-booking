@@ -1,0 +1,8 @@
+<!--components/club-introduction/club-introduction.wxml-->
+<view class="container">
+  <swiper class="swiper" autoplay="false" indicator-dots="true">
+      <swiper-item  class="swiper-item" wx:for="{{intros}}" wx:key="index">
+        <image class="swiper-item-img"  src="{{item}}"/>
+      </swiper-item>
+    </swiper>
+</view>
